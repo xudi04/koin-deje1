@@ -25,7 +25,7 @@ searchClose.addEventListener("click", () => {
 
 const dataArea = document.querySelector(".data-area-scroll");
 const areaForData = document.querySelector(".data-area");
-let coins = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=en';
+let coins = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=tr';
 
 function coinsData() {
     fetch(coins, {mode:'no-cors'})
